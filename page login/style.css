@@ -1,0 +1,32 @@
+body {
+    background-color: #2C085B;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: #D1C305;
+    width: 355px;
+    height: 320px;
+    padding: 355px;
+    
+
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    margin-top: 10px;
+
+}
