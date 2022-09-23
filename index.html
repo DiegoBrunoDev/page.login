@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Avaliação U01 M02 FS10</h1>
+
+    <div>
+             <form action="http://192.168.2.138:8090/av01" target="_blank">
+                <label for="nome completo">Nome Completo</label> <br>
+                 <input type="text" id="Nome Completo"> <br>
+                <br>
+                <label for="email">E-mail</label> <br>
+                <input type="email" id="email" required > <br>
+                <br>
+                <label for="marca de carro">Marca de Carro</label> <br>
+                <select name="carro" id="marca de carro">
+                <option value="bentley">Bentley</option> 
+                <option value="bmw">BMW</option> 
+                <option value="bentley">Bentley</option>
+                <option value="porshe">Porshe</option>
+                <option value="toyota">Toyota</option>
+                </select> <br>
+                <br>
+                <label for="velocidade maxima">Velocidade Máxima (100 e 200)</label> <br>
+                <input type="range" id="velocidade maxima" min="100" max="200" step="20"> <br>
+                <br>
+                <label for="cor preferida">Cor Preferida</label> <br>
+                <input type="radio" name="cor" value="vermelho" > Vermelho </input> 
+                <input type="radio" name="cor" value="azul" checked > Azul </input> 
+                <input type="radio" name="cor" value="verde" > Verde </input> <br>
+                <br>
+                <button type="reset">Limpar</button>
+                <button type="submit">Cadastrar</button>
+
+
+
+        </form>
+    </div>
+</body>
+</html>

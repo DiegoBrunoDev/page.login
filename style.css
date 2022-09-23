@@ -1,0 +1,9 @@
+body {
+    display: block;
+    text-align: center;
+    background: rgb(222, 184, 135);
+}
+
+h1 {
+    color: rgb(255, 99, 71);
+}
